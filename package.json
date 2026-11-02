@@ -1,0 +1,30 @@
+{
+  "name": "sathicode-ai",
+  "version": "1.0.0",
+  "description": "SathiCode AI - Intelligent AI Coding Assistant powered by LangChain and Gemini",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test:gemini": "node testgemini.js",
+    "test": "echo \"No tests configured yet\""
+  },
+  "keywords": [
+    "ai",
+    "coding-assistant",
+    "langchain",
+    "gemini",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "@langchain/core": "^1.3.2",
+    "@langchain/google": "^0.2.12",
+    "dotenv": "^18.0.9",
+    "langchain": "^1.6.0",
+    "zod": "^4.6.7"
+  }
+}
